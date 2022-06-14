@@ -1,5 +1,5 @@
 // importando app
-import app from './app';
+import app from './app.js';
 //importando banco de dados
 import { conectarAoDatabase } from './database/index.js';
 
