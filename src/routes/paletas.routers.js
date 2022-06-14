@@ -1,10 +1,10 @@
 // importando biblioteca router do express
 import { Router } from 'express';
 // importando controladores de paletass
-import PaletasControllers from '../controllers/paletas.controllers';
+import PaletasControllers from '../controllers/paletas.controllers.js';
 // importando verificadores 
-import verificarIdDePaletaMiddleware from '../middlewares/verificarIdDePaleta.middleware';
-import verificarDadosDePaletaMiddleware from '../middlewares/verificarDadosDePaleta.middleware';
+import verificarIdDePaletaMiddleware from '../middlewares/verificarIdDePaleta.middleware.js';
+import verificarDadosDePaletaMiddleware from '../middlewares/verificarDadosDePaleta.middleware.js';
 
 const paletasRouter = Router();
 const paletasControllers = new PaletasControllers();
