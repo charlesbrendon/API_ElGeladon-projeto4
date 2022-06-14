@@ -1,9 +1,9 @@
 // importando paletas de rotas
-import paletasRouter from './routes/paletas.routers';
+import paletasRouter from './routes/paletas.routers.js';
 // importando usuarios de rotas
-import usuariosRouter from './routes/usuarios.router';
+import usuariosRouter from './routes/usuarios.router.js';
 // importando login de rotas
-import loginRouter from './routes/login.router'
+import loginRouter from './routes/login.router.js'
 // importando modulos
 import express from 'express';
 import cors from 'cors';
