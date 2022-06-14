@@ -1,5 +1,5 @@
 // importando dados de usuarios do model
-import Usuario from '../models/usuarios.model';
+import Usuario from '../models/usuarios.model.js';
 // importando bibliotecas de criptgrafia de senha
 import bcryptjs from 'bcryptjs';
 

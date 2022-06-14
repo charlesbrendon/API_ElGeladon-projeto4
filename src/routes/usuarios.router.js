@@ -1,11 +1,11 @@
 // importando biblioteca router do express
 import { Router } from 'express';
 // importando controladores de usuario
-import UsuariosControllers from '../controllers/usuarios.controller';
+import UsuariosControllers from '../controllers/usuarios.controller.js';
 // importando verificadores
-import verificarDadosDeUsuarioMiddleware from '../middlewares/verificarDadosDeUsuario.middleware'
-import verificarIdDeUsuarioMiddleware from '../middlewares/verificarIdDeUsuario.middleware'
-import verificarTokenMiddleware from '../middlewares/verificarToken.middleware'
+import verificarDadosDeUsuarioMiddleware from '../middlewares/verificarDadosDeUsuario.middleware.js'
+import verificarIdDeUsuarioMiddleware from '../middlewares/verificarIdDeUsuario.middleware.js'
+import verificarTokenMiddleware from '../middlewares/verificarToken.middleware.js'
 const usuariosRouter = Router();
 
 const usuariosControllers = new UsuariosControllers();

@@ -1,5 +1,5 @@
 // importando dados de paleta de models
-import Paleta from '../models/paletas.model';
+import Paleta from '../models/paletas.model.js';
 
 // criando serviços CRUD paletas
 // CRUD (Create, Read, Update, Delete) é um acrônimo para as maneiras de se operar em informação armazenada. É um mnemônico para as quatro operações básicas de armazenamento persistente.

@@ -1,5 +1,5 @@
 // importando serviços CRUD de usuarios
-import UsuariosServices from '../services/usuarios.service';
+import UsuariosServices from '../services/usuarios.service.js';
 
 const usuariosServices = new UsuariosServices();
 

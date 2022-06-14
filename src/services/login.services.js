@@ -1,5 +1,5 @@
 // importando model para acessar usuarios
-import Usuario from '../models/usuarios.model';
+import Usuario from '../models/usuarios.model.js';
 // importando bibliotecas de segurança
 import bcryptjs from 'bcryptjs';
 import jwt from 'jsonwebtoken';

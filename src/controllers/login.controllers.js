@@ -1,5 +1,5 @@
 //importando serviços de autenticação de login para
-import LoginServices from '../services/login.services'
+import LoginServices from '../services/login.services.js'
 
 const loginServices = new LoginServices();
 // para tentativa de login iremos pegar email e senha do corpo da requisição e fazer as verificações importadas dos serviços

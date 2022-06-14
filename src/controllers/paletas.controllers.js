@@ -1,5 +1,5 @@
 // importando serviços CRUD de paletas
-import PaletasServices from '../services/paletas.services';
+import PaletasServices from '../services/paletas.services.js';
 
 const paletasServices = new PaletasServices();
 
